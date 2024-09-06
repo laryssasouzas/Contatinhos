@@ -21,7 +21,10 @@ export function Home(){
                     color={theme.colors.gray_300} onPress={() => setName("")}></Feather>
                 </Input>
             </View>
-            <Contact />
+            <Contact contact={{
+                name: "Laryssao",
+                image: require("@/assets/avatar.jpeg")
+            }} />
         </View>
     )
 }
